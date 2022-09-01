@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            sm: "640px",
+            // => @media (min-width: 640px) { ... }
+
+            md: "768px",
+            // => @media (min-width: 768px) { ... }
+
+            lg: "1024px"
+            // => @media (min-width: 1024px) { ... }
+          },
+          extend: {
+            colors: {
+              green: "#004C3F"
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-[#FBF7ED]">
+    <!-- Navigation Bar -->
+    <header class="px-8 py-4">
+      <nav class="w-4/5 mx-auto flex justify-between items-center">
+        <img
+          src="./images/more.png"
+          alt=""
+          class="lg:hidden text-2xl cursor-pointer"
+        />
+        <div class="w-24">
+          <img
+            src="./images/svgexport-20.png"
+            alt="logo"
+            class="cursor-pointer"
+          />
+        </div>
+        <ul class="space-x-8 hidden lg:flex">
+          <li class="cursor-pointer font-medium opacity-80 text-base uppercase">
+            Start
+            <img src="./images/svgexport-21.png" alt="" class="inline-block" />
+          </li>
+          <li class="cursor-pointer font-medium opacity-80 text-base uppercase">
+            Sell
+            <img src="./images/svgexport-21.png" alt="" class="inline-block" />
+          </li>
+          <li class="cursor-pointer font-medium opacity-80 text-base uppercase">
+            Market
+            <img src="./images/svgexport-21.png" alt="" class="inline-block" />
+          </li>
+          <li class="cursor-pointer font-medium opacity-80 text-base uppercase">
+            Manage
+            <img src="./images/svgexport-21.png" alt="" class="inline-block" />
+          </li>
+          <li class="cursor-pointer font-medium opacity-80 text-base uppercase">
+            Pricing
+          </li>
+          <li class="cursor-pointer font-medium opacity-80 text-base uppercase">
+            Learn
+            <img src="./images/svgexport-21.png" alt="" class="inline-block" />
+          </li>
+          <li class="cursor-pointer font-medium opacity-80 text-base uppercase">
+            Log In
+          </li>
+        </ul>
+        <button
+          class="bg-[#02846c] hover:bg-green px-5 py-3 text-white rounded"
+        >
+          Try for free
+        </button>
+      </nav>
+    </header>
+
+    <!-- Block 1 -->
+    <div class="py-12 bg-[#fcf6ed]">
+      <div class="w-[90%] mx-auto flex flex-row items-center flex-wrap">
+        <div class="lg:w-1/2 w-full">
+          <h2
+            class="text-[#004c3f] xl:text-5xl md:text-4xl text-3xl font-bold leading-tight pr-16"
+          >
+            The easiest way to sell online in India
+          </h2>
+          <p class="mt-8 text-lg text-black opacity-80 xl:pr-16 pr-8">
+            Try one of the most powerful platforms on the market for free. No
+            technical knowledge needed.
+          </p>
+          <form class="mt-8 mr-16 w-full flex flex-wrap">
+            <input
+              type="email"
+              class="w-[70%] w-full px-2 text-sm py-3 border-2 border-gray rounded-md outline-0"
+              placeholder="Enter your Email Address "
+            />
+            <button
+              class="w-[25%] shadow-sm bg-green text-sm text-white py-3 px-4 rounded ml-2 w-full hover:bg-[#004c3f]"
+            >
+              Try for Free
+            </button>
+          </form>
+          <h3 class="mt-6 text-xs md:mr-16 leading-snug">
+            Try Shopify free for 14 days, no credit card required. By entering
+            your email, you agree to receive marketing emails from hopify.
+          </h3>
+        </div>
+        <div class="lg:w-1/2 w-full xl:px-20 px-10 mt-12 lg:mt-0">
+          <img
+            src="./images/block_1.PNG"
+            alt="img"
+            class="lg:w-full block w-4/5 mx-auto"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Block 2 -->
+    <div class="bg-[#004c3f] py-24">
+      <div class="w-[90%] mx-auto">
+        <h2 class="md:text-4xl text-3xl mb-8 lg:mb-0 font-normal text-white">
+          Bring your business online
+        </h2>
+
+        <p class="text-white text-base pb-4 pt-2">
+          Create an ecommerce website backed by powerful tools that help you
+          find customers, drive sales, and manage your day-to-day.
+        </p>
+
+        <a class="text-white relative pr-5 mybtn cursor-pointer text-lg pb-4"
+          >Explore more examples
+          <img src="./images/svgexport-30.png" alt="" class="inline-block" />
+        </a>
+
+        <div class="my-16 flex md:space-x-4 flex-wrap md:flex-nowrap">
+          <div class="lg:w-[20%] md:w-[25%] w-1/2 px-4 md:px-0 mt-4 md:mt-0">
+            <img
+              src="https://cdn.shopify.com/shopifycloud/brochure/assets/merchants/blue-tokai/home-example-small-4144844351e226a9896cffee4bebdaeecb17897116c33a753bfd086b8b621e74.jpg"
+              alt="img"
+              class="w-full block"
+            />
+            <div>
+              <h3 class="text-white mt-4 font-semibold">FOOD & Drink</h3>
+              <p class="text-white">Blue Tokai</p>
+            </div>
+          </div>
+          <div class="lg:w-[20%] md:w-[25%] w-1/2 px-4 md:px-0 mt-4 md:mt-0">
+            <img
+              src="https://cdn.shopify.com/shopifycloud/brochure/assets/merchants/quirksmith/home-example-small-8b1c6b138414b76150e6e00f5143c4301a07b708aa6113dd7096f4340ddfecad.jpg"
+              alt="img"
+              class="w-full block"
+            />
+            <div>
+              <h3 class="text-white mt-4 font-semibold">JEWELLARY</h3>
+              <p class="text-white">Quirksmith</p>
+            </div>
+          </div>
+          <div class="lg:w-[20%] md:w-[25%] w-1/2 px-4 md:px-0 mt-4 md:mt-0">
+            <img
+              src="https://cdn.shopify.com/shopifycloud/brochure/assets/merchants/crossbeats/home-example-small-099933088cbe804543fbb1b0963a5d0a16365e73e6000949b5b0ab2bf4b21503.jpg"
+              alt="img"
+              class="w-full block"
+            />
+            <div>
+              <h3 class="text-white mt-4 font-semibold">ELECTRONICS</h3>
+              <p class="text-white">Crossbeats</p>
+            </div>
+          </div>
+          <div class="lg:w-[20%] md:w-[25%] w-1/2 px-4 md:px-0 mt-4 md:mt-0">
+            <img
+              src="https://cdn.shopify.com/shopifycloud/brochure/assets/merchants/bunaai/home-example-small-4575b175c798e22af5531bae02621396add507433f771db37b1515e9941f8a45.jpg"
+              alt="img"
+              class="w-full block"
+            />
+            <div>
+              <h3 class="text-white mt-4 font-semibold">FASHION</h3>
+              <p class="text-white">Bunaai</p>
+            </div>
+          </div>
+          <div class="w-[20%] lg:block hidden">
+            <img
+              src="https://cdn.shopify.com/shopifycloud/brochure/assets/merchants/mcaffeine/home-example-small-26afc247af7a3a7b1c9c585a645ccdff26e76156e98be7d9ff0fe9ecd4d3b675.jpg"
+              alt="img"
+              class="w-full block"
+            />
+            <div>
+              <h3 class="text-white mt-4 font-semibold">BEAUTY</h3>
+              <p class="text-white">Mcaffeine</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Block 3 -->
+      <div class="py-8 ml-16 mr-16">
+        <h2 class="text-3xl text-white  font-medium">
+          Take the best path forward
+        </h2>
+        <div
+          class="flex mt-16 lg:space-x-4  space-x-0 lg:flex-nowrap flex-wrap flex-row"
+        >
+          <div class="lg:w-[25%]  cs:w-1/2 w-full mt-8 lg:mt-0 pr-8 lg:pr-0">
+            <img src="./images/open-book.png" alt="" class="mb-3">
+            <h3 class="font-medium text-white mb-2 text-xl">
+              Start an online business
+            </h3>
+            <p class="text-white font-normal text-lg">
+              Create a business, whether you’ve got a fresh idea or are
+              looking for a new way to make money.
+            </p>
+          </div>
+          <div class="lg:w-[25%] mr-10 cs:w-1/2 w-full mt-8 lg:mt-0 pr-8 lg:pr-0">
+            <img src="./images/multiple-users-silhouette.png" alt="" class="mb-3">
+            <h3 class="font-medium text-white mb-2 text-xl">
+              Move your business online
+            </h3>
+            <p class="text-white font-normal text-lg">
+              Turn your retail store into an online store and keep serving
+              customers without missing a beat.
+            </p>
+          </div>
+          <div class="lg:w-[25%] pr-10 cs:w-1/2 w-full mt-8 lg:mt-0 pr-8 lg:pr-0">
+            <img src="./images/location.png" alt="" class="mb-3">
+            <h3 class="font-medium text-white mb-2 text-xl">
+              Switch to Shopify
+            </h3>
+            <p class="text-white font-normal text-lg">
+              Bring your business to Shopify, no matter which ecommerce
+              platform you’re currently using.
+            </p>
+          </div>
+          <div class="lg:w-[25%] mr-16 cs:w-1/2 w-full mt-8 lg:mt-0 pr-8 lg:pr-0">
+            <img src="./images/recycle.png" alt="" class="mb-3">
+            <h3 class="font-medium text-white mb-2 text-xl">
+              Hire a Shopify expert
+            </h3>
+            <p class="text-white font-normal text-lg">
+              Get set up with the help of a trusted freelancer or agency
+              from the Shopify Experts Marketplace.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+  </body>
+</html>
