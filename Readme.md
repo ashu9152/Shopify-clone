@@ -14,6 +14,6 @@ In this project I have created a Homepage for a Rode Homepage Cloneunsing differ
 
 ## Screenshot :
 
-![Screenshot](Shopify%20Clone.jpeg)
+![Screenshot](SS.jpeg)
 
 [Live Link](https://magenta-custard-2c04a6.netlify.app/)
