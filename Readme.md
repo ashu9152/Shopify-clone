@@ -2,9 +2,9 @@
 
 I'm Ashutosh Singh, Fresher Software Developer learning and trying to build new things everyday.
 
-# Project Name : Rode Homepage Clone
+# Project Name : Shopify Homepage Clone
 
-In this project I have created a Homepage for a Rode Homepage Cloneunsing different technology for my learning and understanding it took me 19 hrours to build it. I have learnt a lot of things like HTML, CSS FLexbox and Media Queries
+In this project I have created a Homepage for a Shopify Homepage Clone unsing different technology for my learning and understanding it took me 19 hrours to build it. I have learnt a lot of things like HTML, CSS FLexbox and Media Queries
 
 # 💻 Tech Stack:
 
@@ -14,6 +14,6 @@ In this project I have created a Homepage for a Rode Homepage Cloneunsing differ
 
 ## Screenshot :
 
-![Screenshot](SS.jpeg)
+![Screenshot](SS.jpg)
 
 [Live Link](https://magenta-custard-2c04a6.netlify.app/)
