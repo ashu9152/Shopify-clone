@@ -14,6 +14,6 @@ In this project I have created a Homepage for a Shopify Homepage Clone unsing di
 
 ## Screenshot :
 
-![Screenshot](SS.jpg)
+![Screenshot](./ss/SS.jpg))
 
 [Live Link](https://magenta-custard-2c04a6.netlify.app/)
