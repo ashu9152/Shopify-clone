@@ -14,6 +14,6 @@ In this project I have created a Homepage for a Rode Homepage Cloneunsing differ
 
 ## Screenshot :
 
-![Screenshot](SS.jpeg)
+![Screenshot](SS.jpg)
 
 [Live Link](https://magenta-custard-2c04a6.netlify.app/)
